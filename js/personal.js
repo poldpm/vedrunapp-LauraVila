@@ -51,3 +51,28 @@
    es pot treure d'aquí quan ja faci temps que el va llegir.
    ============================================================ */
 window.AVIS_INICI = 'adeu-assistent';
+
+/* ============================================================
+   LES EINES OPCIONALS QUE TÉ ENCESES
+   ------------------------------------------------------------
+   El codi d'aquestes dues eines ve del base i el porten totes les
+   apps, però neixen APAGADES: només les veu qui les demana. Un botó
+   vermell nou a cada targeta d'alumne, o una pàgina nova al menú, no
+   se li han d'aparèixer a ningú sense haver-los demanat.
+
+   La Laura les va demanar totes dues el 16/10/2026.
+
+   ⚠ Aquí NO s'hi puja mai la versió de l'app (`sw.js`, `js/versio.js`,
+   `versio.json`): aquells són fitxers base i la propera
+   sincronització amb la mare ho revertiria.
+   ============================================================ */
+
+/* Avisar la família d'una incidència — el botó vermell de cada
+   targeta d'alumne, la finestra per explicar què ha passat i
+   l'apartat del compte a la fitxa. Veure `js/incidencies.js`. */
+window.EINES_INCIDENCIES = true;
+
+/* Rúbriques d'avaluació d'activitats — «Rúbriques» al menú, l'editor
+   de criteris i nivells, la graella d'avaluar i el pas de la nota al
+   registre. Veure `js/rubaval-ui.js`. */
+window.EINES_RUBAVAL = true;
