@@ -77,3 +77,8 @@ window.EINES_INCIDENCIES = true;
    registre. Veure `js/rubaval-ui.js`. */
 window.EINES_RUBAVAL = true;
 
+
+/* La meva llibreta — anotacions per dies, amb etiquetes i cercador, i
+   d'una línia en surt una tasca o un event. Demanada des de «Possibles
+   actualitzacions» (25/11/2026). Veure `js/llibreta.js`. */
+window.EINES_LLIBRETA = true;
